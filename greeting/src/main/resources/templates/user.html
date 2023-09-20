@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Página de usuario</title>
+    <link th:href="@{/css/style.css}" rel=" hoja de estilo" />
+</head>
+<body>
+<h1>Detalles del usuario</h1>
+<div class = "main_container">
+    <div class="row">
+        <div class="left">Identificación de usuario:</div >
+        <div class="left" th:text="${user.id}"></div>
+    </div>
+
+    <div class="row">
+        <div class="left">Nombre: </div >
+        <div class="izquierda" th:text="${usuario.nombre}"></div>
+    </div>
+
+</div>
+</body>
+</html>
