@@ -1,22 +1,27 @@
-<!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Página de usuario</title>
-    <link th:href="@{/css/style.css}" rel=" hoja de estilo" />
+    <title>User page</title>
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
 </head>
 <body>
-<h1>Detalles del usuario</h1>
+<h1>User details :)</h1>
 <div class = "main_container">
     <div class="row">
-        <div class="left">Identificación de usuario:</div >
-        <div class="left" th:text="${user.id}"></div>
+        <div class="left">User Id:</div>
+        <div class="left" th:text="${user.getUserId()}"></div>
     </div>
-
     <div class="row">
-        <div class="left">Nombre: </div >
-        <div class="izquierda" th:text="${usuario.nombre}"></div>
+        <div class="left">Id:</div>
+        <div class="left" th:text="${user.getId()}"></div>
     </div>
-
+    <div class="row">
+        <div class="left">Tittle:</div>
+        <div class="left" th:text="${user.getTitle()}"></div>
+    </div>
+    <div class="row">
+        <div class="left">Completed:</div>
+        <div class="left" th:text="${user.getComplete()}"></div>
+    </div>
 </div>
 </body>
 </html>
