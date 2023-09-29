@@ -23,3 +23,11 @@
       pasando por alto que tenemos dos directorios adicionales complete e initial, la diferencia general es la ruta y que            contiene alguno que otro archivo extra
 6. ¿Qué anotaciones usaste y cuál es la diferencia entre ellas?
 
+### PARTE III. - APLICACIÓN MVC PARA CONSUMO DE SERVICIO RESTful
+1. ¿Qué es RESTful?
+   REST (Representational State Transfer) es una arquitectura que se ejecuta sobre HTTP.
+   RESTful hace referencia a un servicio web que implementa la arquitectura REST.
+
+
+   
+
