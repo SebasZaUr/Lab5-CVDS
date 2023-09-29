@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>The Game</title>
+</head>
+<body>
+<div class = "main_container">
+    <div class="row">
+        <div class="left" style="display: inline;">Premio:</div>
+        <div class="left" style="display: inline;" th:text="${juego.getMonto()}"></div>
+    </div>
+
+</div>
+<form>
+    <p>escoge una opcion... elije bien muahahaha:</p>
+    <select number="opcion">
+        <option value="opciones" selected>opciones</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+</form>
+<input type="button" onclick="alert('Hello World!')" value="verificar!">
+</body>
+</html>
